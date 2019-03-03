@@ -11,7 +11,6 @@ You will be building a deck of cards in Ruby.   To accomplish this, you must imp
 * A `Card` should be initialized with two positional arguments, a `value` and a `suit`. The value should be a number from 1-13, and the suit should be a string of either `"hearts"`, `"diamonds"`, `"clubs"` or `"spades"`.  It should be possible to write code like this: `Card.new(4, "spades")`.
 * A `Card` should have public instance methods, `value`, and `suit`, that return the value of these arguments. (Hint: you will want to use instance variables and `attr_reader`.)
 * A `Card` should also have a public instance method called `face`.   Face should return a string represenation of the card's value.  For instance, `Card.new(1, "hearts").face` should return the string "Ace". If the value is 2, the face should be "2", if the value is 13, the face should be "King", etc...
-* As a **Bonus**, you should raise `ArgumentError` if the value or suit are not valid.
 
 ### Deck
 
